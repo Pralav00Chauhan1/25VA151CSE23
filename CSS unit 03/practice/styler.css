@@ -1,0 +1,26 @@
+h1{
+    background-color: rgb(202, 115, 27); 
+    border: 5px solid rgb(10, 9, 9);
+    
+    align-content: center;
+margin-left:350px;
+margin-bottom: 0px;
+margin-top: 0px;
+ padding: 0%;
+ 
+    height:50px;
+}
+h2{
+    background-color: rgb(58, 172, 238); 
+    border: 5px  solid rgb(10, 9, 9);
+
+    align-content: center;
+margin-left:350px;
+margin-bottom: 0px;
+margin-top: 0px;
+margin-left: 0px;
+ padding: 0%;
+ width: 500px;
+    height:70px;
+
+}

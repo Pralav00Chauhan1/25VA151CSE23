@@ -1,0 +1,26 @@
+body{
+    margin: 55px;
+    padding: 56px; 
+    background-color: rgb(58, 183, 214);
+    background-image: url('abes log.png');
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: 550px;
+}
+p{
+    font-family: Arial;
+    font-size: 30px;
+    color: rgb(6, 79, 23);
+    font-weight: 30px;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-shadow: 1px 1px  10px #ffffff;
+}
+#para1{
+    font-size: 40px;
+    color: #983ea2;
+    text-transform: uppercase;
+    text-decoration: double;
+}
