@@ -20,12 +20,24 @@
             height: 100px;
         }
         #content{
+            display: flex;
+            flex-direction: row;
+            
             background-color: green;
-            height: 100px;
+            height: 500px;
         }
         #footer{
             background-color: yellow;
             height: 100px;
+        }
+        #Page title{
+            height: 60%;
+            width: 20%;
+            flex-direction: row;
+        }
+        #Nav Local{
+
+            flex-direction: row;
         }
     </style>
 </head>
@@ -33,7 +45,11 @@
     <main>
         <div id="header"></div>
         <div id="nav"></div>
-        <div id="content"></div>
+        <div id="content">
+            <div id="Page title" ></div>
+            <div id="Nav Local"></div>
+
+        </div>
         <div id="footer">s</div>
     </main>
     
