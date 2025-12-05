@@ -7,7 +7,7 @@ body{
     background-repeat: no-repeat;
     background-size: 550px;
 }
-p{
+p{   margin-right:500px ;
     font-family: Arial;
     font-size: 30px;
     color: rgb(6, 79, 23);
