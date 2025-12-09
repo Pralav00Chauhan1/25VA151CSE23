@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Responsive Product Grid</title>
+    <style>
+        body {
+            font-family: Arial;
+            margin: 20px;
+             }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+              }
+        .card {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+              }
+        .card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+                  }
+        @media (max-width: 600px) {
+            .grid {grid-template-columns: repeat(1, 1fr);}
+          }
+        @media (max-width: 900px) {
+            .grid { grid-template-columns: repeat(2, 1fr);}
+        }
+    </style>
+</head>
+<body>
+<h2>Responsive Product Grid</h2>
+<div class="grid">
+    <div class="card">
+        <img src="https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/s11-case-unselect-gallery-1-202509_GEO_EMEA_FMT_WHH?wid=1200&hei=630&fmt=jpeg&qlt=95&.v=1756344861451">
+        <h3>Product 1</h3>
+        <p>₹499</p>
+    </div>
+    <div class="card">
+        <img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/311882/01/sv01/fnd/IND/fmt/png/Skyrocket-Lite-Men's-Running-Shoes">
+        <h3>Product 2</h3>
+        <p>₹699</p>
+    </div>
+    <div class="card">
+        <img src="https://images.naptol.com/usr/local/csp/staticContent/product_images/horizontal/750x750/Pull-String-Car-Toy-for-Kids-1.jpg">
+        <h3>Product 3</h3>
+        <p>₹899</p>
+    </div>
+</div>
+</body>
+</html>
